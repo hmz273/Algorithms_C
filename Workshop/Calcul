@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+int a,b,c,somme;
+printf("saisir un nombre1: \n");
+scanf("%d",&a);
+printf("saisir un nombre:2 \n");
+scanf("%d",&b);
+somme=a+b;
+printf("la somme de %d + %d est = %d \n",a,b,somme);
+return 0;
